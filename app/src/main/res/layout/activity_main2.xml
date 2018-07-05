@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/imageVSimple"
+        android:layout_width="143dp"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/happy" />
+
+    <ImageView
+        android:id="@+id/imageVMedium"
+        android:layout_width="140dp"
+        android:layout_height="121dp"
+        android:layout_alignStart="@+id/imageVSimple"
+        android:layout_centerVertical="true"
+        android:background="@drawable/smiling" />
+
+    <ImageView
+        android:id="@+id/imageVHard"
+        android:layout_width="141dp"
+        android:layout_height="107dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginStart="29dp"
+        android:background="@drawable/japan" />
+
+    <TextView
+        android:id="@+id/textViewbegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginTop="96dp"
+        android:text="Simple"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewbegin"
+        android:layout_centerVertical="true"
+        android:text="Medium"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textViewbegin"
+        android:layout_marginBottom="101dp"
+        android:text="Hard"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
